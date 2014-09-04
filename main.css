@@ -2,8 +2,8 @@ body {
     padding: 0;
     margin: 0;
     background: #e8e8e8;
-    font-family: 'Droid Sans', 'PT Sans', serif;
-    font-size: 14.5px;
+    font-family: 'Gentium Book Basic', 'Open Sans', serif;
+    font-size: 18px;
 }
 
 .wrapper {
@@ -24,14 +24,15 @@ body {
 }
 
 .content h4 {
-    color: #990000;
+    color: #353645;
     padding: 10px 16px;
-    font-family: 'PT Sans', 'Droid Sans', serif;
+    font-family: 'Open Sans', 'Gentium Book Basic', serif;
+    font-weight: 700;
 }
 
 .content h5 {
     padding: 10px 16px;
-    font-family: 'PT Sans', 'Droid Sans', serif;
+    font-family: 'Open Sans', 'Gentium Book Basic', serif;
 }
 
 .content p {
@@ -41,12 +42,15 @@ body {
 
 .navbar-default .navbar-brand {
     color: #e77500;
-    font-family: 'PT Sans', 'Droid Sans', serif;
+    font-family: 'Open Sans', 'Gentium Book Basic', serif;
+    font-size: 19.5px;
+    /*font-weight: 700;*/
 }
 
 .navbar-default .navbar-nav > li > a {
-    font-family: 'PT Sans', 'Droid Sans', serif;
+    font-family: 'Open Sans', 'Gentium Book Basic', serif;
     color: #000;
+    font-size: 15px;
 }
 
 .navbar-default .navbar-nav > .active > a {
@@ -86,7 +90,7 @@ body {
     border-bottom: 1px solid black;
     text-align: left;
     color: #e77500;
-    font-family: 'PT Sans', 'Droid Sans', sans-serif;
+    font-family: 'Open Sans', 'Gentium Book Basic', sans-serif;
     font-size: 16px;
     margin: 0 15px;
     padding: 10px 0;
@@ -94,8 +98,8 @@ body {
 
 .panel-body {
     color: #000;
-    font-family: 'Droid Sans', 'PT Sans', sans-serif;
-    font-size: 14.5px;
+    font-family: 'Gentium Book Basic', 'Open Sans', sans-serif;
+    font-size: 16px;
 }
 
 .btn-container {
@@ -108,7 +112,7 @@ body {
 .btn-style {
   background: #e8e8e8;
   color: #000;
-  font-family: 'Droid Sans', 'PT Sans', sans-serif;
+  font-family: 'Gentium Book Basic', 'Open Sans', sans-serif;
   border-radius: 0px;
   box-shadow: 1px 1px 1px #e8e8e8;
 }
@@ -124,7 +128,7 @@ body {
     border-bottom: 1px solid black;
     text-align: left;
     color: #e77500;
-    font-family: 'PT Sans', 'Droid Sans', sans-serif;
+    font-family: 'Open Sans', 'Gentium Book Basic', sans-serif;
     font-size: 16px;
     margin: 0 15px;
     padding: 10px 0;
@@ -149,11 +153,11 @@ body {
 }
 
 @media screen and (min-width: 560px) {
-    .col-centered {
+    /*.col-centered {
         float: none;
         margin: 0 auto;
         width: 500px;
-    }
+    }*/
 
     .col-sm-3 {
         width: 50%;
