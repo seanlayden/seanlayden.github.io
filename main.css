@@ -70,12 +70,17 @@ body {
 
 .navbar-default .navbar-toggle {
     border-color: transparent;
+    background: white;
 }
 
 .navbar-default {
     background-image: linear-gradient(to bottom, #fff 0, #fff 100%);
     /*border-bottom: 0px solid #000;*/
     box-shadow: none;
+}
+
+.navbar-toggle {
+  border-radius: 0px;
 }
 
 #html {
