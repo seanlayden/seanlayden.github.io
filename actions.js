@@ -18,4 +18,8 @@ $(document).ready(function() {
     $(this).css("background-color", "white");
   })
 
+  $(".navbar-brand").on('mouseenter', function() {
+    $(this).css("color", '#e77500');
+  })
+
 })
