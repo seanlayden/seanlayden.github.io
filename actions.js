@@ -7,6 +7,7 @@ $(document).ready(function() {
   $(".navbar-toggle").on('mouseenter', function() {
     $(this).css("background-color", "white");
     $(this).css("border", "1px solid #e8e8e8");
+    $(this).css("border-radius", "5px");
   });
 
   $(".navbar-toggle").on("mouseleave", function() {
