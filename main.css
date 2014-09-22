@@ -162,13 +162,6 @@ body {
   font-size: 24px;
 }
 
-#resume {
-  padding-top: 0px;
-  border-radius: 5px;
-  background: white;
-  font-family: 'Gentium Book Basic', 'Open Sans', sans-serif;
-  padding: 5px 15px; 
-}
 
 .first-box {
   padding: 10px 20px;
@@ -265,6 +258,10 @@ body {
 
   .second-box {
     margin-right: 0;
+  }
+
+  .col-centered {
+    margin: 0 auto;
   }
 }
 
