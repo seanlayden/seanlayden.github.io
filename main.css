@@ -1,7 +1,7 @@
 body {
     padding: 0;
     margin: 0;
-    background-image: url('seanlayden.github.io/Images/retina_wood.png');
+    background-image: url('Images/retina_wood.png');
     font-family: 'Gentium Book Basic', 'Open Sans', serif;
     font-size: 18px;
 }
@@ -160,6 +160,14 @@ body {
   padding-top: 50px;
   text-align: center;
   font-size: 24px;
+}
+
+#resume {
+  padding-top: 0px;
+  border-radius: 5px;
+  background: white;
+  font-family: 'Gentium Book Basic', 'Open Sans', sans-serif;
+  padding: 5px 15px; 
 }
 
 .first-box {
