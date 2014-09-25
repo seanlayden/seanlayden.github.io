@@ -3,7 +3,7 @@ body {
     margin: 0;
     background-image: url('Images/retina_wood.png');
     font-family: 'Gentium Book Basic', 'Open Sans', serif;
-    font-size: 18px;
+    font-size: 21px;
 }
 
 .wrapper {
@@ -148,7 +148,7 @@ body {
     padding: 10px 10px;
     margin: 10px 0 15px 0;
     /*box-shadow: 2px 2px 10px #515150;*/
-    /*border: solid 1px #e7e7e7;*/
+    border: solid 1px #e7e7e7;
     border-radius: 5px;
 }
 
@@ -169,6 +169,7 @@ body {
   margin-left: -15px;
   border-radius: 5px;
   background: white;
+  border: solid 1px #e7e7e7;
 }
 
 .second-box {
@@ -177,6 +178,7 @@ body {
   margin-right: -15px;
   border-radius: 5px;
   background: white;
+  border: solid 1px #e7e7e7;
 }
 
 .blog-title {
@@ -193,6 +195,10 @@ body {
   margin-left: auto;
   margin-right: auto;
   display: block;
+}
+
+.highlight {
+  color: #145fe3;
 }
 
 @media screen and (min-width: 940px) {
