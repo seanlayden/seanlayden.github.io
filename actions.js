@@ -5,18 +5,18 @@ $(document).ready(function() {
   });
 
   $(".navbar-toggle").on('mouseenter', function() {
-    $(this).css("background-color", "white");
-    $(this).css("border", "1px solid #e8e8e8");
+    $(this).css("background-color", "#ddd");
+    $(this).css("border", "1px solid #333");
     $(this).css("border-radius", "5px");
   });
 
   $(".navbar-toggle").on("mouseleave", function() {
-    $(this).css("background-color", "white");
-    $(this).css("border", "1px solid white");
+    $(this).css("background-color", "#ddd");
+    $(this).css("border", "1px solid #ddd");
   })
 
   $(".navbar-toggle").on('click', function() {
-    $(this).css("background-color", "white");
+    $(this).css("background-color", "#ddd");
   })
 
   $(".navbar-brand").on('mouseenter', function() {

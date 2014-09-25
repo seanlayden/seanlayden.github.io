@@ -1,7 +1,7 @@
 body {
     padding: 0;
     margin: 0;
-    background-image: url('Images/retina_wood.png');
+    background-image: url('Images/stressed_linen.png');
     font-family: 'Montserrat', serif;
     font-size: 16px;
     line-height: 1.75em;
@@ -33,7 +33,7 @@ body {
 
 h4 {
   font-family: 'Open Sans', sans-serif;
-  color: #ae0031;
+  color: #2c944b;
   font-size: 22px;
   padding-bottom: 15px;
   margin-bottom: 10px;
@@ -51,7 +51,7 @@ h4 {
 }
 
 .navbar-default .navbar-brand {
-    color: #e77500;
+    color: #2c944b;
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
     /*font-weight: 700;*/
@@ -67,7 +67,7 @@ h4 {
     font-family: 'Open Sans', sans-serif;
     color: #000;
     font-weight: 700;
-    background-image: linear-gradient(to bottom,#fff 0,#fff 0);
+    background-image: linear-gradient(to bottom,#ddd 0,#ddd 0);
     box-shadow: none;
     /*border-bottom: 1px solid #fff;*/
 
@@ -76,22 +76,23 @@ h4 {
 .navbar-default .navbar-toggle .icon-bar {
     color: #000;
     background-color: #000;
-    border-color: #000;
+    border-color: #ddd;
 }
 
 .navbar-default .navbar-toggle {
     border-color: transparent;
-    background: white;
+    background: #ddd;
 }
 
 .navbar-default {
-    background-image: linear-gradient(to bottom, #fff 0, #fff 100%);
+    background-image: linear-gradient(to bottom, #ddd 0, #ddd 100%);
     /*border-bottom: 0px solid #000;*/
     box-shadow: none;
 }
 
 .navbar-toggle {
   border-radius: 0px;
+  background-color: #ddd;
 }
 
 #html {
@@ -110,7 +111,7 @@ h4 {
 .panel-heading {
     border-bottom: 1px solid black;
     text-align: left;
-    color: #ae0031;
+    color: #2c944b;
     font-family: 'Open Sans', 'Gentium Book Basic', sans-serif;
     font-size: 16px;
     margin: 0 15px;
@@ -133,7 +134,7 @@ h4 {
 }
 
 .btn-style {
-  background: #e8e8e8;
+  background: #eee;
   color: #000;
   font-family: 'Montserrat', serif;
   border-radius: 5px;
@@ -155,7 +156,7 @@ h4 {
 }
 
 .box {
-    background: #fff;
+    background: #ccc;
     padding: 10px 10px;
     margin: 10px 0 15px 0;
     /*box-shadow: 2px 2px 10px #515150;*/
@@ -179,7 +180,7 @@ h4 {
   margin: 10px 0px 15px;
   margin-left: -15px;
   border-radius: 5px;
-  background: white;
+  background: #ddd;
   border: solid 1px #e7e7e7;
 }
 
@@ -188,7 +189,7 @@ h4 {
   margin: 10px 0px 15px;
   margin-right: -15px;
   border-radius: 5px;
-  background: white;
+  background: #ddd;
   border: solid 1px #e7e7e7;
 }
 
@@ -209,11 +210,12 @@ h4 {
 }
 
 .highlight {
-  color: #ae0031;
+  color: #3ac162;
 }
 
 h1 {
   font-size: 36px;
+  color: #ddd;
 }
 
 @media screen and (min-width: 940px) {
