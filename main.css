@@ -53,7 +53,7 @@ h4 {
 .navbar-default .navbar-brand {
     color: #e77500;
     font-family: 'Open Sans', sans-serif;
-    font-size: 18px;
+    font-size: 16px;
     /*font-weight: 700;*/
 }
 
@@ -64,8 +64,9 @@ h4 {
 }
 
 .navbar-default .navbar-nav > .active > a {
+    font-family: 'Open Sans', sans-serif;
     color: #000;
-    font-weight: 800;
+    font-weight: 700;
     background-image: linear-gradient(to bottom,#fff 0,#fff 0);
     box-shadow: none;
     /*border-bottom: 1px solid #fff;*/
