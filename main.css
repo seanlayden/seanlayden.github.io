@@ -35,7 +35,9 @@ h4 {
   font-family: 'Open Sans', sans-serif;
   color: #ae0031;
   font-size: 22px;
-  padding: 10px 0;
+  padding-bottom: 15px;
+  margin-bottom: 10px;
+  border-bottom: 1px solid black;
 }
 
 .content h5 {
@@ -107,7 +109,7 @@ h4 {
 .panel-heading {
     border-bottom: 1px solid black;
     text-align: left;
-    color: #e77500;
+    color: #ae0031;
     font-family: 'Open Sans', 'Gentium Book Basic', sans-serif;
     font-size: 16px;
     margin: 0 15px;
