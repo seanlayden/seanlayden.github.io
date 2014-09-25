@@ -2,8 +2,9 @@ body {
     padding: 0;
     margin: 0;
     background-image: url('Images/retina_wood.png');
-    font-family: 'Gentium Book Basic', 'Open Sans', serif;
-    font-size: 21px;
+    font-family: 'Montserrat', serif;
+    font-size: 16px;
+    line-height: 1.75em;
 }
 
 .wrapper {
@@ -23,16 +24,22 @@ body {
     padding-top: 70px;
 }
 
-.content h4 {
+/*.content h4 {
     color: #353645;
     padding: 10px 16px;
-    font-family: 'Open Sans', 'Gentium Book Basic', serif;
+    font-family: 'Vollkorn', sans-serif;
     font-weight: 700;
+}*/
+
+h4 {
+  font-family: 'Vollkorn', sans-serif;
+  color: #ae0031;
+  font-size: 26px;
 }
 
 .content h5 {
     padding: 10px 16px;
-    font-family: 'Open Sans', 'Gentium Book Basic', serif;
+    font-family: 'Vollkorn', sans-serif;
 }
 
 .content p {
@@ -42,13 +49,13 @@ body {
 
 .navbar-default .navbar-brand {
     color: #e77500;
-    font-family: 'Open Sans', 'Gentium Book Basic', serif;
+    font-family: 'Vollkorn', sans-serif;
     font-size: 16px;
     /*font-weight: 700;*/
 }
 
 .navbar-default .navbar-nav > li > a {
-    font-family: 'Open Sans', 'Gentium Book Basic', serif;
+    font-family: 'Vollkorn', sans-serif;
     color: #555;
     font-size: 15px;
 }
@@ -198,7 +205,11 @@ body {
 }
 
 .highlight {
-  color: #145fe3;
+  color: #ae0031;
+}
+
+h1 {
+  font-size: 36px;
 }
 
 @media screen and (min-width: 940px) {
