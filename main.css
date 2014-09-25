@@ -210,12 +210,12 @@ h4 {
 }
 
 .highlight {
-  color: #ccc;
+  color: #3ac162;
 }
 
 h1 {
   font-size: 36px;
-  color: #3ac162;
+  color: #ccc;
 }
 
 @media screen and (min-width: 940px) {
